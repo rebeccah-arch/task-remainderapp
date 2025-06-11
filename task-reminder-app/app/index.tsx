@@ -1,3 +1,4 @@
+
 import { Text, View } from "react-native";
 
 export default function Index() {
@@ -9,7 +10,8 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Welcome Rebecca</Text>
+      <Text className="text-3xl text-blue-600">Hello Rebecca</Text>
+      
     </View>
   );
 }
